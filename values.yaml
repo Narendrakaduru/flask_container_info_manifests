@@ -2,7 +2,7 @@ replicaCount: 3
 
 image:
   repository: narendra8686/flask-container-info
-  tag: 73
+  tag: 83
   pullPolicy: IfNotPresent
 
 service:
