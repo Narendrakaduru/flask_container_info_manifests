@@ -1,0 +1,13 @@
+replicaCount: 3
+
+image:
+  repository: narendra8686/flask_container_info
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 3010
+  targetPort: 5000
+
+resources: {}
